@@ -1,0 +1,11 @@
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+backend/python/.venv/
+backend/.env
+backend/node_modules/
+*.log
+*.tmp
+*.local
+.DS_Store
+Thumbs.db

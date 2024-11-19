@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 138, 158, 0.8), rgba(109, 162, 255, 0.8));
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.navBar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%; 
+    max-width: 1200px;
+}
+
+.navbar-logo-name {
+    height: 40px;
+}
+
+.navbar-logo {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+
+}

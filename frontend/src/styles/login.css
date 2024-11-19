@@ -1,0 +1,66 @@
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 60vh;
+    width: 30vw;
+    transform: translate(-50%, -50%);
+    background-color: #343a40; 
+    padding: 20px; 
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-evenly; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+.welcome-header {
+    font-size: 24px;
+    color: white; 
+    margin: 0; 
+    text-align: center;
+}
+
+.logo {
+    height: 200px;
+}
+
+.logo-name {
+    height: 40px; 
+    margin-bottom: 10px; 
+}
+
+.spotify-header {
+    font-size: 16px; 
+    color: lightgray; 
+    margin: 10px 0; 
+    text-align: center; 
+}
+
+.spotify-login-button {
+    height: 50px;
+    width: 50px;
+    background-color: #1DB954; 
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spotify-login-button:hover {
+    cursor: pointer;
+    opacity: 0.9; 
+}
+
+.spotify-icon {
+    height: 60%;
+    width: 60%;
+}
+
+.loading-login {
+    font-size: 16px;
+    color: white; 
+    text-align: center;
+}

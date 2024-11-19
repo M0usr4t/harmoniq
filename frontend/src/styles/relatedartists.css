@@ -1,0 +1,81 @@
+.related-artists-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-between; 
+    height: 70vh; 
+    width: 35vw; 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+.logo {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+.go-back-button {
+    font-size: 14px;
+    padding: 8px 16px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    align-self: center; 
+}
+
+.go-back-button:hover {
+    background-color: darkgray;
+    transform: scale(1.05);
+}
+
+
+.choice-buttons {
+    display: flex;
+    gap: 20px; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.choice-button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    width: 40%;
+}
+
+.choice-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+
+.genre-warning {
+    font-size: 12px;
+    color: lightgray;
+    text-align: center;
+    margin-top: auto; 
+    margin-bottom: 10px;
+}
