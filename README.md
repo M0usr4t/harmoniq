@@ -35,6 +35,6 @@
 
 ---
 ## Demo Video
-- [![Watch the Demo](readme/thumbnail.png)](https://www.youtube.com/watch?v=WrCe_F3b2Zg)
+[![Watch the Demo](readme/thumbnail.png)](https://www.youtube.com/watch?v=WrCe_F3b2Zg)
 
 ---
